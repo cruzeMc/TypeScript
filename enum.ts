@@ -6,5 +6,8 @@ const enum Operator{
 }
 
 function compute(op:Operator, a:number, b:number){
+    switch(op){
+        
+    }
     console.log("The operator is " + Operator[op]);
 }
